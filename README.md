@@ -37,7 +37,7 @@ https://github.com/FunkyFr3sh/cnc-ddraw/releases
 
 Install *America: No Peace Beyond the Line* normally.
 
----
+
 ### Important Sidenote - Make sure that in America.exe -> properties -> compatibility everything is unchecked. Conflicts may occur when using cnc ddraw + windows compatibility options
 
 
@@ -77,7 +77,6 @@ Set these settings in cnc config (if possible):
     - Fix invisible videos / UI elements: True (i didnt change the default value)
 
 # Technical Overview
-
 ### The project currently includes:
 - DLL injection
 - Runtime memory patching
@@ -85,8 +84,25 @@ Set these settings in cnc config (if possible):
 - API hooking experiments
 - Reverse engineering research
 - DirectDraw compatibility research
-
+---
 ### Reverse engineering is performed using:
 - Ghidra
 - Cheat Engine
 - Visual Studio
+---
+### NEXT 7 TASKS
+
+ 1. Feature toggle system
+
+ 2. Logging system
+
+ 3. Clean pattern scanner
+
+ 4. Resolution unlock
+
+ 5. Aspect ratio fix
+
+ 6. UI scaling
+
+ 7. Camera improvements
+ ---
